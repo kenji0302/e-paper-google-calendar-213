@@ -5,7 +5,6 @@
 ### 必要なもの
 
 - [Raspberry Pi Pico WH — スイッチサイエンス](https://www.switch-science.com/products/8172?_pos=1&_sid=5aa1a1afe&_ss=r)
-
 - [Raspberry Pi Pico用 2.13インチ e-Paper ディスプレイ（白黒赤）212×104 — スイッチサイエンス](https://www.switch-science.com/products/7322)
 
 
@@ -24,9 +23,10 @@ microBタイプのケーブルがなければ注文。また、電池式のモ�
 [Raspberry Pi Pico W で e-paper に日本語を表示する その2（大きめのフォント表示） #micropython - Qiita](https://qiita.com/kenji0302/items/8da4c075dff974d1dc6f)
 
 
+e-paper描画ライブラリ。
 https://github.com/waveshareteam/Pico_ePaper_Code/blob/main/python/Pico_ePaper-2.13_V4.py をダウンロード。 `EPD_2in13_B_V4_Portrait.py` として設置。
 
-## 要編集ファイル
+## 編集が必要なファイル
 
 - index.php
 - secret.py
