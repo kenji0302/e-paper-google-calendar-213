@@ -32,9 +32,12 @@ if __name__=='__main__':
 
         mf = mfont()
         mf.setFontSize(16)    
-
-
+        
+        # deepsleep 1時間
+        sleep_msec = 3600000
         if access_token is None:
+            # deepsleep 24時間
+            sleep_msec = 86400000
             jpredtext("カレンダーにアクセス出来ません。", 5, 10, mf, epd)
             jpredtext("トークンを更新してください。", 5, 35, mf, epd)
         else:
@@ -93,4 +96,4 @@ if __name__=='__main__':
         print("deepsleep")
         
         machine.Pin(23, machine.Pin.OUT).low()
-        machine.deepsleep(3600000)
+        machine.deepsleep(sleep_msec)
