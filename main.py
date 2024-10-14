@@ -58,13 +58,6 @@ if __name__=='__main__':
 
                 events = response.json().get('items', [])            
                 
-                # 画面表示
-                epd = EPD_2in13_B_V4_Landscape()
-                epd.Clear(0xff, 0xff)
-                epd.imageblack.fill(0xff)
-                epd.imagered.fill(0xff)
-
-
                 mf = mfont()
                 mf.setFontSize(16)    
 
