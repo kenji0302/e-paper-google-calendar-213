@@ -1,5 +1,10 @@
 # Google Calendar を Raspberry Pi Pico W と e-paer で表示する
 
+## 動作例
+
+![image](https://github.com/user-attachments/assets/25307305-d96e-4a83-8391-fb61e44347dc)
+
+
 ## 準備
 
 ### 必要なもの
