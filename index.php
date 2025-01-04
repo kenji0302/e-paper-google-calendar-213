@@ -7,7 +7,7 @@ $REDIRECT_URI = "http://localhost:8080/";
 
 <body>
     <p>
-        <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=<?php echo $CLIENT_ID ?>&redirect_uri=<?php echo $REDIRECT_URI ?>&scope=https://www.googleapis.com/auth/calendar&response_type=code&access_type=offline&prompt=consent">認証</a>
+        <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=<?php echo $CLIENT_ID ?>&redirect_uri=<?php echo $REDIRECT_URI ?>&scope=https://www.googleapis.com/auth/calendar.readonly&response_type=code&access_type=offline&prompt=consent">認証</a>
     </p>
     <?php if (!empty($_GET['code'])) { ?>
         <p>
